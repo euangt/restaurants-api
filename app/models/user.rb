@@ -6,4 +6,6 @@ class User < ApplicationRecord
 
   has_many :restaurants
   has_many :comments
+
+  acts_as_token_authenticatable
 end
